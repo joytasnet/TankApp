@@ -14,7 +14,7 @@ public class TankApp{
 				t1.moveRight();
 			}else if(ans.startsWith("l") || ans.startsWith("L")){
 				t1.moveLeft();
-			}else if(ans.startsWith("p") || ans.startsWith("P")){
+			}else if(ans.startsWith("s") || ans.startsWith("S")){
 				t1.showPos();
 			}else if(ans.startsWith("q") || ans.startsWith("Q")){
 				System.out.println("終了");
