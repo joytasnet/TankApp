@@ -2,12 +2,11 @@ import java.util.*;
 public class TankApp{
 	public static void main(String[] args){
 		Tank tank = new Tank();
-		String choice;
 
 		Scanner scanner = new Scanner(System.in);
 		do{
 			System.out.print("タンク操作を入力(U(p),D(own),R(ight),L(eft),S(how),Q(uit)>>");
-			choice = scanner.next();
+			String choice = scanner.next();
 
 			if(choice.equalsIgnoreCase("u")||choice.equalsIgnoreCase("up")){
 				tank.moveUp();
